@@ -1,0 +1,9 @@
+<h2>Our Contacts</h2>
+
+<form action="{% url 'sendmail' %}">
+    <p>Firstname</p><input type="text" name="firstname">
+    <p>Lastname</p><input type="text" name="lastname">
+    <p>Message: </p><textarea name="message"></textarea>
+    <br/>
+    <input type="submit" value="Send">
+</form>
